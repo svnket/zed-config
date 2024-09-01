@@ -1,0 +1,36 @@
+{
+  "ui_font_size": 15,
+  "ui_font_family": "JetBrains Mono",
+  "buffer_font_size": 16,
+  "enable_language_server": true,
+  "buffer_font_family": "JetBrains Mono",
+
+  "format_on_save": "on",
+  "soft_wrap": "editor_width",
+  "theme": "Gruvbox Dark",
+
+  "telemetry": {
+    "diagnostics": true,
+    "metrics": false
+  },
+
+  "project_panel": {
+    "dock": "right"
+  },
+  "languages": {
+    "TypeScript": {
+      "code_actions_on_format": {
+        "source.organizeImports": true
+      }
+    },
+    "TSX": {
+      "code_actions_on_format": {
+        "source.organizeImports": true,
+        "use_autoclose": true
+      }
+    },
+    "HTML": {
+      "use_autoclose": true
+    }
+  }
+}
